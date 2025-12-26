@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Caoschef</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .lang-switcher {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .lang-switcher button {
+            background: white;
+            border: 2px solid #667eea;
+            color: #667eea;
+            padding: 10px 30px;
+            margin: 0 10px;
+            border-radius: 50px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .lang-switcher button.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .lang-switcher button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .lang-section {
+            display: none;
+        }
+
+        .lang-section.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin: 30px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            margin: 15px 0;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 20px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .contact-info {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #2196F3;
+        }
+
+        .date {
+            font-style: italic;
+            color: #999;
+            margin: 20px 0;
+        }
+
+        strong {
+            color: #667eea;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🍳 Caoschef</h1>
+            <p>Privacy Policy | Gizlilik Politikası</p>
+        </div>
+
+        <div class="lang-switcher">
+            <button onclick="switchLang('tr')" id="btn-tr" class="active">🇹🇷 Türkçe</button>
+            <button onclick="switchLang('en')" id="btn-en">🇬🇧 English</button>
+        </div>
+
+        <div class="content">
+            <!-- TURKISH VERSION -->
+            <div id="lang-tr" class="lang-section active">
+                <p class="date"><strong>Son Güncelleme:</strong> 26 Aralık 2025</p>
+
+                <h2>1. Giriş</h2>
+                <p>
+                    Caoschef ("biz", "bizim" veya "uygulama"), kullanıcılarının ("siz" veya "kullanıcı") gizliliğini
+                    korumayı taahhüt eder.
+                    Bu Gizlilik Politikası, Caoschef mobil uygulamasını kullanırken kişisel verilerinizin nasıl
+                    toplandığını,
+                    kullanıldığını ve korunduğunu açıklar.
+                </p>
+
+                <div class="highlight">
+                    <strong>Önemli:</strong> Caoschef, kullanıcı verilerini toplamak, depolamak veya paylaşmak amacıyla
+                    tasarlanmamıştır.
+                    Tüm veriler cihazınızda yerel olarak saklanır ve hiçbir sunucuya gönderilmez.
+                </div>
+
+                <h2>2. Toplanan Bilgiler</h2>
+
+                <h3>2.1. Kullanıcı Tarafından Sağlanan Bilgiler</h3>
+                <ul>
+                    <li><strong>Malzeme Listeleri:</strong> Tarif önerileri almak için girdiğiniz malzemeler</li>
+                    <li><strong>Fotoğraflar:</strong> Buzdolabınızdan/deponuzdan çektiğiniz fotoğraflar (sadece malzeme
+                        tespiti için)</li>
+                    <li><strong>Mutfak Tercihleri:</strong> Seçtiğiniz mutfak türleri, porsiyon sayısı ve diyet
+                        tercihleri</li>
+                    <li><strong>API Anahtarı:</strong> Groq API servisini kullanmak için sağladığınız API anahtarı
+                        (opsiyonel)</li>
+                </ul>
+
+                <h3>2.2. Otomatik Olarak Toplanan Bilgiler</h3>
+                <ul>
+                    <li><strong>Kullanım İstatistikleri:</strong> Ücretsiz kullanıcılar için tarif oluşturma sayacı
+                        (sadece cihazınızda)</li>
+                    <li><strong>Dil Tercihi:</strong> Seçtiğiniz uygulama dili</li>
+                    <li><strong>Yerel Ayarlar:</strong> Uygulama içi tercihleriniz ve ayarlarınız</li>
+                </ul>
+
+                <h2>3. Bilgilerin Kullanımı</h2>
+                <p>Topladığımız bilgiler yalnızca şu amaçlarla kullanılır:</p>
+                <ul>
+                    <li><strong>Tarif Üretimi:</strong> Girdiğiniz malzemelere göre kişiselleştirilmiş tarif önerileri
+                        sunmak</li>
+                    <li><strong>Görüntü İşleme:</strong> Fotoğraflarınızdan malzemeleri tespit etmek için yapay zeka
+                        kullanmak</li>
+                    <li><strong>Kullanım Limiti:</strong> Ücretsiz kullanıcılar için günlük tarif limitini yönetmek</li>
+                    <li><strong>Uygulama İşlevselliği:</strong> Tercihlerinizi hatırlamak ve kullanıcı deneyimini
+                        iyileştirmek</li>
+                </ul>
+
+                <h2>4. Üçüncü Taraf Servisler</h2>
+
+                <h3>4.1. Groq API</h3>
+                <p>
+                    Caoschef, yapay zeka destekli tarif önerileri ve görüntü işleme için <strong>Groq API</strong>
+                    kullanır.
+                    Bu servise gönderilen veriler:
+                </p>
+                <ul>
+                    <li>Girdiğiniz malzeme listesi</li>
+                    <li>Yüklediğiniz fotoğraflar (sadece işleme sırasında)</li>
+                    <li>Mutfak tercihleri ve diyet kısıtlamaları</li>
+                </ul>
+
+                <div class="highlight">
+                    <strong>Önemli Bilgi:</strong> Groq API'ye gönderilen veriler yalnızca tarif oluşturma ve görüntü
+                    işleme için kullanılır.
+                    Groq'un gizlilik politikası için:
+                    <a href="https://groq.com/privacy-policy/" target="_blank">https://groq.com/privacy-policy/</a>
+                </div>
+
+                <h3>4.2. Bing Image Search</h3>
+                <p>
+                    Tarif görselleri, Microsoft Bing Image Search API'si aracılığıyla dinamik olarak yüklenir.
+                    Bu işlem sırasında yalnızca tarif adı Bing'e gönderilir ve hiçbir kişisel bilgi paylaşılmaz.
+                </p>
+
+                <h2>5. Veri Depolama</h2>
+
+                <h3>5.1. Yerel Depolama</h3>
+                <p>Tüm kullanıcı verileri cihazınızda yerel olarak (LocalStorage) saklanır:</p>
+                <ul>
+                    <li>Groq API anahtarınız</li>
+                    <li>Dil tercihiniz</li>
+                    <li>Kullanım sayaçları</li>
+                    <li>Uygulama ayarları</li>
+                </ul>
+
+                <h3>5.2. Uzak Sunucular</h3>
+                <p>
+                    <strong>Caoschef kendi sunucusuna hiçbir veri göndermez veya saklamaz.</strong>
+                    Uygulama tamamen cihazınızda çalışır ve tüm veriler yerel olarak saklanır.
+                </p>
+
+                <h2>6. Veri Güvenliği</h2>
+                <p>Verilerinizin güvenliğini sağlamak için şu önlemleri alırız:</p>
+                <ul>
+                    <li><strong>Şifreli İletişim:</strong> Tüm API istekleri şifreli HTTPS bağlantısı üzerinden yapılır
+                    </li>
+                    <li><strong>Yerel Depolama:</strong> Veriler yalnızca cihazınızda saklanır ve başka hiçbir yere
+                        gönderilmez</li>
+                    <li><strong>API Güvenliği:</strong> API anahtarınız cihazınızda saklanır ve şifreli şekilde iletilir
+                    </li>
+                    <li><strong>Geçici İşleme:</strong> Fotoğraflar sadece işleme sırasında kullanılır ve saklanmaz</li>
+                </ul>
+
+                <h2>7. Kullanıcı Hakları (GDPR/KVKK)</h2>
+                <p>Kullanıcı olarak aşağıdaki haklara sahipsiniz:</p>
+                <ul>
+                    <li><strong>Erişim Hakkı:</strong> Verilerinize erişim (uygulama ayarlarından görüntülenebilir)</li>
+                    <li><strong>Silme Hakkı:</strong> Tüm verilerinizi silebilirsiniz (uygulamayı kaldırarak veya
+                        ayarlardan sıfırlayarak)</li>
+                    <li><strong>Taşınabilirlik Hakkı:</strong> Verileriniz cihazınızda olduğu için size aittir</li>
+                    <li><strong>İtiraz Hakkı:</strong> Veri işleme faaliyetlerine itiraz edebilirsiniz</li>
+                </ul>
+
+                <h2>8. Çocukların Gizliliği</h2>
+                <p>
+                    Caoschef, 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamaz.
+                    Eğer 13 yaşından küçükseniz, uygulamayı kullanmadan önce ebeveyn veya vasinizin iznini almalısınız.
+                </p>
+
+                <h2>9. Değişiklikler</h2>
+                <p>
+                    Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler bu sayfada yayınlanacak
+                    ve "Son Güncelleme" tarihi değiştirilecektir. Önemli değişiklikler için uygulama içi bildirim
+                    gönderilebilir.
+                </p>
+
+                <h2>10. İletişim</h2>
+                <div class="contact-info">
+                    <p>Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen bizimle iletişime geçin:</p>
+                    <p><strong>Email:</strong> support@caoschef.com</p>
+                    <p><strong>Uygulama:</strong> Ayarlar > Hakkında > Destek</p>
+                </div>
+
+                <h2>11. Onay</h2>
+                <p>
+                    Caoschef uygulamasını kullanarak, bu Gizlilik Politikasını okuduğunuzu, anladığınızı ve
+                    kabul ettiğinizi beyan edersiniz.
+                </p>
+            </div>
+
+            <!-- ENGLISH VERSION -->
+            <div id="lang-en" class="lang-section">
+                <p class="date"><strong>Last Updated:</strong> December 26, 2025</p>
+
+                <h2>1. Introduction</h2>
+                <p>
+                    Caoschef ("we", "our" or "app") is committed to protecting the privacy of our users ("you" or
+                    "user").
+                    This Privacy Policy explains how we collect, use, and protect your personal data when you use the
+                    Caoschef mobile application.
+                </p>
+
+                <div class="highlight">
+                    <strong>Important:</strong> Caoschef is not designed to collect, store, or share user data.
+                    All data is stored locally on your device and is never sent to any server.
+                </div>
+
+                <h2>2. Information We Collect</h2>
+
+                <h3>2.1. User-Provided Information</h3>
+                <ul>
+                    <li><strong>Ingredient Lists:</strong> Ingredients you enter to receive recipe suggestions</li>
+                    <li><strong>Photos:</strong> Photos you take of your refrigerator/pantry (for ingredient detection
+                        only)</li>
+                    <li><strong>Cuisine Preferences:</strong> Your selected cuisine types, serving sizes, and dietary
+                        preferences</li>
+                    <li><strong>API Key:</strong> Your provided API key for using Groq API service (optional)</li>
+                </ul>
+
+                <h3>2.2. Automatically Collected Information</h3>
+                <ul>
+                    <li><strong>Usage Statistics:</strong> Recipe generation counter for free users (only on your
+                        device)</li>
+                    <li><strong>Language Preference:</strong> Your selected app language</li>
+                    <li><strong>Local Settings:</strong> Your in-app preferences and settings</li>
+                </ul>
+
+                <h2>3. How We Use Information</h2>
+                <p>The information we collect is used solely for the following purposes:</p>
+                <ul>
+                    <li><strong>Recipe Generation:</strong> To provide personalized recipe suggestions based on your
+                        ingredients</li>
+                    <li><strong>Image Processing:</strong> To use AI to detect ingredients from your photos</li>
+                    <li><strong>Usage Limit:</strong> To manage daily recipe limits for free users</li>
+                    <li><strong>App Functionality:</strong> To remember your preferences and improve user experience
+                    </li>
+                </ul>
+
+                <h2>4. Third-Party Services</h2>
+
+                <h3>4.1. Groq API</h3>
+                <p>
+                    Caoschef uses <strong>Groq API</strong> for AI-powered recipe suggestions and image processing.
+                    Data sent to this service includes:
+                </p>
+                <ul>
+                    <li>Your ingredient list</li>
+                    <li>Photos you upload (only during processing)</li>
+                    <li>Cuisine preferences and dietary restrictions</li>
+                </ul>
+
+                <div class="highlight">
+                    <strong>Important Information:</strong> Data sent to Groq API is used only for recipe generation and
+                    image processing.
+                    For Groq's privacy policy, visit:
+                    <a href="https://groq.com/privacy-policy/" target="_blank">https://groq.com/privacy-policy/</a>
+                </div>
+
+                <h3>4.2. Bing Image Search</h3>
+                <p>
+                    Recipe images are dynamically loaded through Microsoft Bing Image Search API.
+                    Only the recipe name is sent to Bing during this process, and no personal information is shared.
+                </p>
+
+                <h2>5. Data Storage</h2>
+
+                <h3>5.1. Local Storage</h3>
+                <p>All user data is stored locally on your device (LocalStorage):</p>
+                <ul>
+                    <li>Your Groq API key</li>
+                    <li>Your language preference</li>
+                    <li>Usage counters</li>
+                    <li>App settings</li>
+                </ul>
+
+                <h3>5.2. Remote Servers</h3>
+                <p>
+                    <strong>Caoschef does not send or store any data on its own servers.</strong>
+                    The app runs entirely on your device, and all data is stored locally.
+                </p>
+
+                <h2>6. Data Security</h2>
+                <p>We take the following measures to ensure the security of your data:</p>
+                <ul>
+                    <li><strong>Encrypted Communication:</strong> All API requests are made over encrypted HTTPS
+                        connections</li>
+                    <li><strong>Local Storage:</strong> Data is only stored on your device and never sent elsewhere</li>
+                    <li><strong>API Security:</strong> Your API key is stored on your device and transmitted securely
+                    </li>
+                    <li><strong>Temporary Processing:</strong> Photos are only used during processing and are not stored
+                    </li>
+                </ul>
+
+                <h2>7. User Rights (GDPR/KVKK)</h2>
+                <p>As a user, you have the following rights:</p>
+                <ul>
+                    <li><strong>Right to Access:</strong> Access to your data (viewable from app settings)</li>
+                    <li><strong>Right to Deletion:</strong> Delete all your data (by uninstalling the app or resetting
+                        from settings)</li>
+                    <li><strong>Right to Portability:</strong> Your data is on your device, so it belongs to you</li>
+                    <li><strong>Right to Object:</strong> You can object to data processing activities</li>
+                </ul>
+
+                <h2>8. Children's Privacy</h2>
+                <p>
+                    Caoschef does not knowingly collect personal information from children under 13.
+                    If you are under 13, you must obtain permission from your parent or guardian before using the app.
+                </p>
+
+                <h2>9. Changes</h2>
+                <p>
+                    We may update this Privacy Policy from time to time. Changes will be posted on this page
+                    and the "Last Updated" date will be modified. In-app notifications may be sent for significant
+                    changes.
+                </p>
+
+                <h2>10. Contact</h2>
+                <div class="contact-info">
+                    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+                    <p><strong>Email:</strong> support@caoschef.com</p>
+                    <p><strong>App:</strong> Settings > About > Support</p>
+                </div>
+
+                <h2>11. Consent</h2>
+                <p>
+                    By using the Caoschef app, you acknowledge that you have read, understood, and agree to
+                    this Privacy Policy.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Caoschef. All rights reserved.</p>
+            <p>Made with ❤️ for food lovers everywhere</p>
+        </div>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            // Hide all language sections
+            document.querySelectorAll('.lang-section').forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Remove active class from all buttons
+            document.querySelectorAll('.lang-switcher button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Show selected language section
+            document.getElementById('lang-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+
+            // Update HTML lang attribute
+            document.documentElement.lang = lang;
+        }
+    </script>
+</body>
+
+</html>
